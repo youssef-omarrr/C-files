@@ -78,7 +78,6 @@ int (*cmp_func)(const char* a, const char* b)) //send pointer to function
                 arr[j] = strdup(temp);
                 
                 free(temp);
-
         }
     }
         
