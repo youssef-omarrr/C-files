@@ -75,7 +75,6 @@ void send_all_acceptable_packages(town *source, int source_office_index, town *t
             for (int j = i; j < (source_office->packages_count) - 1; j++)
                 source_office->packages[j] = source_office->packages[j + 1];
             
-
             // Decrease the package count in the source office as one package is transferred
             source_office->packages_count--;
             
